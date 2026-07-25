@@ -651,7 +651,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -692,7 +692,7 @@
         "uuid": "96ef50de-934d-4dd6-87fd-3fc40e345030"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TVS4,#PWR67-68",
     "variants": []
   },
   "sheets": [
