@@ -13617,6 +13617,17 @@
 		)
 		(uuid "d096d06e-68a2-4227-82d5-2d1fafda4755")
 	)
+	(text "Stitching via spacing math\n(1/20) * ((3*10^8)/(sqrt(4.6)*2.4*10^9))\nans = 2.9141e-03"
+		(exclude_from_sim no)
+		(at 416.814 384.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1755228-32e8-4c86-90fd-70c5b2e0d49b")
+	)
 	(text "L/H polarity"
 		(exclude_from_sim no)
 		(at 397.51 319.024 0)
