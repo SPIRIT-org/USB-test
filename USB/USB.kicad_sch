@@ -10838,6 +10838,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SPIRIT-components:TPD1E05U06DPYR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -0.762 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TPD1E05U06DPYR"
+				(at -7.6446 -5.0964 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "CM5IO:TPD1E05U-SON65P60X100X45-2N"
+				(at 0.508 -10.414 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+				(at 3.81 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DigiKey_Part_Number" "4518-TPD1E05U06DPYRCT-ND"
+				(at -1.524 12.446 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+				(at 7.366 -22.606 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 23.876 11.176 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+				(at 4.826 -15.494 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "UMW"
+				(at 27.686 14.986 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "TPD1E05U06DPYR"
+				(at -1.27 15.748 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "TI"
+				(at 17.78 13.208 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TPD1E05U06DPYR_1_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.524) (xy 0.762 0) (xy -0.762 1.524) (xy -0.762 -1.524)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy 0.254 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.524) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SPIRIT-components:TVS-choke-1-pair-EMI8141"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -13177,6 +13427,16 @@
 		)
 		(uuid "48052856-1cf2-4acd-b995-5bf76802918b")
 	)
+	(text "Recommended dedicated ICs:\n\nonsemi ESD5B5.0ST1G or ESD7371\n\nTexas Instruments TPD1E05U06\n\nNexperia PESD5V0C1B / PESD2USB-SW"
+		(exclude_from_sim no)
+		(at 233.68 386.842 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50e3b97e-254a-45e6-b66e-9fedf383edd1")
+	)
 	(text "Type-C plug\nposition 2 (H);\nposition 1 (L)."
 		(exclude_from_sim no)
 		(at 312.928 302.006 0)
@@ -13369,6 +13629,17 @@
 		)
 		(uuid "de78e098-e58c-47cd-aa1c-49a88e914274")
 	)
+	(text "TVS protection for usb info by TI\nhttps://www.ti.com/lit/an/slvaf82b/slvaf82b.pdf?ts=1785077163106"
+		(exclude_from_sim no)
+		(at 214.63 404.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f16db649-6029-40c7-92ee-db0659ef9e21")
+	)
 	(text "Display port not used"
 		(exclude_from_sim no)
 		(at 432.308 299.212 0)
@@ -13420,6 +13691,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31c51cca-e49b-4f0b-a953-6adae33b4f2b")
+	)
+	(junction
+		(at 128.27 303.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4035131a-9df0-4919-b46a-02038853a3b4")
 	)
 	(junction
 		(at 144.78 182.88)
@@ -13474,6 +13751,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e43ea2a0-13f2-4046-a977-8ec13ada26c1")
+	)
+	(junction
+		(at 71.12 295.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec83745f-5fd0-409c-ac91-7555a9839b16")
 	)
 	(no_connect
 		(at 251.46 289.56)
@@ -13532,7 +13815,7 @@
 		(uuid "60996c21-fc17-4bb7-a0ba-fc1efa5be026")
 	)
 	(no_connect
-		(at 68.58 295.91)
+		(at 58.42 295.91)
 		(uuid "630a173e-366f-474f-8ce0-892f761c76b1")
 	)
 	(no_connect
@@ -13624,6 +13907,16 @@
 			(type default)
 		)
 		(uuid "0d4d1207-faf3-44d4-8505-841d187869b4")
+	)
+	(wire
+		(pts
+			(xy 129.54 303.53) (xy 128.27 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9c7fef-4437-44d2-9d88-a5fc0801c6b4")
 	)
 	(wire
 		(pts
@@ -13737,6 +14030,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 303.53) (xy 116.84 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0edd67-2996-46f4-a17a-3672e1099cb9")
+	)
+	(wire
+		(pts
 			(xy 144.78 187.96) (xy 144.78 190.5)
 		)
 		(stroke
@@ -13764,6 +14067,16 @@
 			(type default)
 		)
 		(uuid "32fc0d4f-1668-4626-bd7d-f322b9db87c5")
+	)
+	(wire
+		(pts
+			(xy 71.12 295.91) (xy 81.28 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae760bb-b3fa-4608-b932-592e6eabc2e6")
 	)
 	(wire
 		(pts
@@ -13877,16 +14190,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 290.83) (xy 24.13 290.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d85bd56-9dd3-42d5-9b69-47905ae9dc0f")
-	)
-	(wire
-		(pts
 			(xy 144.78 177.8) (xy 144.78 180.34)
 		)
 		(stroke
@@ -13934,6 +14237,16 @@
 			(type default)
 		)
 		(uuid "5c0d3144-53a5-466d-ab59-73ac64cf9960")
+	)
+	(wire
+		(pts
+			(xy 69.85 295.91) (xy 71.12 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c794aa6-be1e-4da2-b733-8e729da6497e")
 	)
 	(wire
 		(pts
@@ -14077,13 +14390,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 285.75) (xy 76.2 285.75)
+			(xy 58.42 285.75) (xy 76.2 285.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "77428ae2-ca61-4990-bbaa-c3a6d63a30ce")
+	)
+	(wire
+		(pts
+			(xy 17.78 292.1) (xy 17.78 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77744ad5-2a7d-468b-91aa-cd92c50472e3")
 	)
 	(wire
 		(pts
@@ -14284,6 +14607,16 @@
 			(type default)
 		)
 		(uuid "9d384d7e-ab25-4a15-acf3-fd3b62c1c681")
+	)
+	(wire
+		(pts
+			(xy 128.27 311.15) (xy 128.27 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16856db-8a07-4797-85bd-116e709b8dc6")
 	)
 	(wire
 		(pts
@@ -21052,7 +21385,7 @@
 			)
 		)
 	)
-	(global_label "CC2f"
+	(global_label "CC2"
 		(shape bidirectional)
 		(at 334.01 267.97 180)
 		(fields_autoplaced yes)
@@ -21064,7 +21397,7 @@
 		)
 		(uuid "0f237510-7f21-4b81-b82f-2671a4c00e58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 325.4383 267.97 0)
+			(at 326.164 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21246,7 +21579,7 @@
 	)
 	(global_label "CC2"
 		(shape bidirectional)
-		(at 116.84 303.53 0)
+		(at 129.54 303.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21256,7 +21589,7 @@
 		)
 		(uuid "19f6111f-7f5c-47bf-a056-2094a1d5b6ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.686 303.53 0)
+			(at 137.386 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21340,7 +21673,7 @@
 			)
 		)
 	)
-	(global_label "CC1f-jumpered"
+	(global_label "CC1-jumpered"
 		(shape bidirectional)
 		(at 73.66 198.12 180)
 		(fields_autoplaced yes)
@@ -21352,7 +21685,7 @@
 		)
 		(uuid "2095781b-9b56-4197-983f-6053a016c516")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.8074 198.12 0)
+			(at 55.5331 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21892,30 +22225,6 @@
 			)
 		)
 	)
-	(global_label "CC1"
-		(shape bidirectional)
-		(at 171.45 381 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f66d042-5989-4eaa-a649-9750402eb887")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.604 381 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SSTX2-"
 		(shape bidirectional)
 		(at 420.37 334.01 0)
@@ -22038,7 +22347,7 @@
 	)
 	(global_label "CC1"
 		(shape bidirectional)
-		(at 81.28 295.91 180)
+		(at 69.85 295.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22048,7 +22357,7 @@
 		)
 		(uuid "6c34adf4-c564-462b-9f0b-c681402952e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.434 295.91 0)
+			(at 62.004 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22084,7 +22393,7 @@
 			)
 		)
 	)
-	(global_label "CC1f-jumpered"
+	(global_label "CC1-jumpered"
 		(shape bidirectional)
 		(at 308.61 279.4 0)
 		(fields_autoplaced yes)
@@ -22096,7 +22405,7 @@
 		)
 		(uuid "6d8ed103-9f1a-4f2c-b7ad-cab57b2876b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.4626 279.4 0)
+			(at 326.7369 279.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22444,7 +22753,7 @@
 			)
 		)
 	)
-	(global_label "CC2f-jumpered"
+	(global_label "CC2n-jumpered"
 		(shape bidirectional)
 		(at 73.66 200.66 180)
 		(fields_autoplaced yes)
@@ -22456,7 +22765,7 @@
 		)
 		(uuid "7e3060cd-cec3-4f16-a243-74a753dff44a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.8074 200.66 0)
+			(at 54.3841 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22505,30 +22814,6 @@
 		(uuid "839236c3-bbd5-4658-890a-b0fd4d2effba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.3822 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CC2f"
-		(shape bidirectional)
-		(at 194.31 383.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "846f747c-2178-4318-bdf9-972990b508ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.8817 383.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22996,30 +23281,6 @@
 			)
 		)
 	)
-	(global_label "CC1f"
-		(shape bidirectional)
-		(at 194.31 381 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9e33a291-d43b-4edc-b91c-2b1787b0b1cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.8817 381 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DSI1_D2_N"
 		(shape bidirectional)
 		(at 271.78 198.12 0)
@@ -23188,7 +23449,7 @@
 			)
 		)
 	)
-	(global_label "CC1f"
+	(global_label "CC1"
 		(shape bidirectional)
 		(at 308.61 267.97 180)
 		(fields_autoplaced yes)
@@ -23200,7 +23461,7 @@
 		)
 		(uuid "af86869f-ffa0-4cfc-840a-a9602bdd7d9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.0383 267.97 0)
+			(at 300.764 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23500,30 +23761,6 @@
 			)
 		)
 	)
-	(global_label "CC2"
-		(shape bidirectional)
-		(at 171.45 383.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c50d64f9-1017-4a0e-8acb-49b24cb405ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.604 383.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SPI0_MOSI"
 		(shape input)
 		(at 73.66 134.62 180)
@@ -23812,7 +24049,7 @@
 			)
 		)
 	)
-	(global_label "CC2f-jumpered"
+	(global_label "CC2-jumpered"
 		(shape bidirectional)
 		(at 334.01 281.94 0)
 		(fields_autoplaced yes)
@@ -23824,7 +24061,7 @@
 		)
 		(uuid "f24dfc04-74c5-4d37-ae22-948c1151e45d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.8626 281.94 0)
+			(at 352.1369 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25467,6 +25704,7 @@
 		)
 		(property "Value" "GND"
 			(at 81.28 331.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26378,84 +26616,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
-		(lib_id "power:GND")
-		(at 180.34 394.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "49f69bd4-5c5f-4985-a905-0033a5b83f80")
-		(property "Reference" "#PWR067"
-			(at 180.34 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 398.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5249e980-90d8-4963-83aa-dbee32da0438")
-		)
-		(instances
-			(project "USB"
-				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_36")
 		(lib_id "power:GND")
 		(at 81.28 144.78 270)
@@ -26690,87 +26850,9 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_3")
-		(lib_id "power:GND")
-		(at 185.42 394.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54333a8a-ae81-44fc-bdc0-30726591c7d8")
-		(property "Reference" "#PWR068"
-			(at 185.42 401.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 398.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 394.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "519ba017-b19d-41f2-b4e4-dc125a29abdd")
-		)
-		(instances
-			(project "USB"
-				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 24.13 290.83 0)
+		(at 17.78 292.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26780,7 +26862,7 @@
 		(dnp no)
 		(uuid "58a2d959-92ed-47b3-83d8-3243c23b65fb")
 		(property "Reference" "#PWR049"
-			(at 24.13 297.18 0)
+			(at 17.78 298.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26791,7 +26873,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 294.64 0)
+			(at 17.78 295.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26801,7 +26883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 290.83 0)
+			(at 17.78 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26812,7 +26894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 290.83 0)
+			(at 17.78 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26823,7 +26905,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 290.83 0)
+			(at 17.78 292.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26847,7 +26929,7 @@
 	)
 	(symbol
 		(lib_id "SPIRIT-components:ESDA25L")
-		(at 68.58 295.91 180)
+		(at 58.42 295.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26858,7 +26940,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d9deca0-b952-4751-a9ed-962b8fb804b3")
 		(property "Reference" "U2"
-			(at 46.99 275.59 0)
+			(at 36.83 275.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26868,7 +26950,7 @@
 			)
 		)
 		(property "Value" "ESDA25L"
-			(at 46.99 278.13 0)
+			(at 36.83 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26878,7 +26960,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 68.58 295.91 0)
+			(at 58.42 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26890,7 +26972,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdal.pdf"
-			(at 68.58 295.91 0)
+			(at 58.42 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26902,7 +26984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 295.91 0)
+			(at 58.42 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26913,7 +26995,7 @@
 			)
 		)
 		(property "MPN" "ESDA25L"
-			(at 68.58 295.91 0)
+			(at 58.42 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27720,108 +27802,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SPIRIT-components:TVS-choke-1-pair-EMI8141")
-		(at 182.88 377.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7df6d990-f24b-4812-87bd-e29a9a818871")
-		(property "Reference" "TVS4"
-			(at 182.88 377.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 182.88 377.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:1-channel-TVS-choke-XDFN6_1P2X1P2_ONS"
-			(at 182.88 377.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/emi8141-d.pdf"
-			(at 182.88 377.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 377.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "EMI8141"
-			(at 182.88 377.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "177393a0-ffe3-499c-bd2a-80f171557ee0")
-		)
-		(pin "3"
-			(uuid "69d43953-a3b7-4ceb-90f3-517316e9ff08")
-		)
-		(pin "4"
-			(uuid "cad6ef4c-bf35-4e63-8885-e677106ae4b0")
-		)
-		(pin "1"
-			(uuid "4485ab53-b757-4507-841b-0ee5f18106aa")
-		)
-		(pin "2"
-			(uuid "9cecda82-3dc5-42a3-bdb2-ac17c843f68c")
-		)
-		(pin "6"
-			(uuid "a82a3151-76b0-4229-bc84-1afee952428d")
-		)
-		(instances
-			(project "USB"
-				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
-					(reference "TVS4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 237.49 281.94 0)
@@ -27894,6 +27874,85 @@
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 128.27 313.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e41f6b7-2522-4412-8629-626ee92f3e3a")
+		(property "Reference" "#PWR067"
+			(at 128.27 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c622521-409b-492f-999e-5c24c22d0c91")
+		)
+		(instances
+			(project "USB"
+				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -29313,6 +29372,7 @@
 		)
 		(property "Value" "GND"
 			(at 116.84 330.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29439,6 +29499,85 @@
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 71.12 303.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2ae445c-c6a1-4b8e-accc-9d40a0351a7b")
+		(property "Reference" "#PWR068"
+			(at 71.12 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f14c11e-ab19-4124-8fe9-8c1d7045ffdf")
+		)
+		(instances
+			(project "USB"
+				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -31393,6 +31532,175 @@
 		)
 	)
 	(symbol
+		(lib_id "SPIRIT-components:TPD1E05U06DPYR")
+		(at 128.27 307.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd114982-345c-427d-aa43-7c85e872ffb5")
+		(property "Reference" "D2"
+			(at 130.81 306.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E05U06DPYR"
+			(at 130.81 308.6099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CM5IO:TPD1E05U-SON65P60X100X45-2N"
+			(at 117.856 307.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+			(at 135.89 311.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey_Part_Number" "4518-TPD1E05U06DPYRCT-ND"
+			(at 140.716 305.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+			(at 105.664 314.706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 139.446 331.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+			(at 112.776 312.166 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "UMW"
+			(at 143.256 335.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TPD1E05U06DPYR"
+			(at 144.018 306.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TI"
+			(at 141.478 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "525b7ff2-7b51-466a-8d21-0b23207d094e")
+		)
+		(pin "1"
+			(uuid "db21c3cf-d8fc-43b5-852e-ff8df3d8ce95")
+		)
+		(instances
+			(project "USB"
+				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
 		(at 271.78 165.1 90)
@@ -32884,6 +33192,175 @@
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:TPD1E05U06DPYR")
+		(at 71.12 299.72 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fec27b78-c90f-4ae6-8c4a-9b3818ea59e6")
+		(property "Reference" "D1"
+			(at 73.66 298.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E05U06DPYR"
+			(at 73.66 300.9899 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CM5IO:TPD1E05U-SON65P60X100X45-2N"
+			(at 60.706 300.228 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "15V Clamp 3.5A (8/20µs) Ipp Tvs Diode Surface Mount 2-X1SON (1x0.6)"
+			(at 78.74 303.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey_Part_Number" "4518-TPD1E05U06DPYRCT-ND"
+			(at 83.566 298.196 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+			(at 48.514 307.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 82.296 323.596 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
+			(at 55.626 304.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "UMW"
+			(at 86.106 327.406 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TPD1E05U06DPYR"
+			(at 86.868 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TI"
+			(at 84.328 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "e1b53cda-824f-4e7f-af55-1b72ee5efd76")
+		)
+		(pin "1"
+			(uuid "6fa9b7ae-9d0c-47e2-8712-11399355971d")
+		)
+		(instances
+			(project "USB"
+				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
+					(reference "D1")
 					(unit 1)
 				)
 			)
