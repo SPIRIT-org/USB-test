@@ -12789,6 +12789,20 @@
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
+		(tenting
+			(front yes)
+			(back no)
+		)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
 		(net "GND")
 		(uuid "6e3eadd5-e7fc-4a75-848c-bf33e40680a1")
 	)
@@ -12798,6 +12812,20 @@
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
+		(tenting
+			(front yes)
+			(back no)
+		)
+		(capping no)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(filling no)
 		(net "GND")
 		(uuid "6e443aee-8b26-419f-8552-6ac1dfa85030")
 	)
