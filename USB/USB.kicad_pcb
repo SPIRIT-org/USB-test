@@ -10758,19 +10758,6 @@
 		(layer "Edge.Cuts")
 		(uuid "6cf4c04e-c930-46eb-971f-1a433967a7a4")
 	)
-	(gr_text "make this a tented via so there is no short to the connector which is GND\n\n"
-		(at 132.8 89.4 0)
-		(layer "F.Cu")
-		(uuid "7cabb12e-a07d-4b86-8ee0-eff8292e7ae2")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "WELCOME TO USB HELL"
 		(at 110.175 69.45 0)
 		(layer "F.SilkS")
@@ -10832,6 +10819,19 @@
 				(size 1.6 1.8)
 				(thickness 0.2)
 			)
+		)
+	)
+	(gr_text "note: vias under type C socket\nneed to be tented from the top"
+		(at 132.8 89.4 0)
+		(layer "F.Fab")
+		(uuid "7cabb12e-a07d-4b86-8ee0-eff8292e7ae2")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment
@@ -11327,6 +11327,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -11417,6 +11421,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -11471,6 +11479,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -11507,6 +11519,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -13665,6 +13681,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -13829,6 +13849,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -14759,6 +14783,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -14777,6 +14805,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -15339,6 +15371,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -15357,6 +15393,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -15383,6 +15423,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -15401,6 +15445,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -15651,6 +15699,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
@@ -15807,6 +15859,10 @@
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
+		(tenting
+			(front yes)
+			(back no)
+		)
 		(capping no)
 		(covering
 			(front no)
