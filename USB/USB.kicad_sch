@@ -13708,6 +13708,12 @@
 		(uuid "0c5db390-a49b-44d4-b1be-13bfe1165a40")
 	)
 	(junction
+		(at 81.28 313.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1829995a-2ba3-4c6c-9ab8-f0f141a0639b")
+	)
+	(junction
 		(at 81.28 321.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27133,6 +27139,84 @@
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 313.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b70d631-64fc-489b-b23d-d9a09556a5ab")
+		(property "Reference" "#PWR070"
+			(at 81.28 320.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd190231-9ab6-4db0-b088-d677b14d16e1")
+		)
+		(instances
+			(project "USB"
+				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
