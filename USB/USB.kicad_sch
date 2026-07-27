@@ -13448,7 +13448,7 @@
 		)
 		(uuid "5a75e370-194c-4249-8224-104ab02e17b0")
 	)
-	(text "TODO\n- add terminal block to power this (wago, 3V3, 5V, GND, DEBEUG?) // JUST SOLDER PADS\n- add patreons to silkscreen\n- remove unused labels\nx- add pin header symbol for polarity flipper\nx- add 'lil chamfer to indicate orientation\nx- rename the diff pair nets to something with +-\nx- remove coupling caps as per cm5 datasheet"
+	(text "TODO\n- add terminal block to power this (wago, 3V3, 5V, GND, DEBEUG?) // JUST SOLDER PADS\n- add patreons to silkscreen\n- remove unused labels\n- add test pads\nx- add pin header symbol for polarity flipper\nx- add 'lil chamfer to indicate orientation\nx- rename the diff pair nets to something with +-\nx- remove coupling caps as per cm5 datasheet"
 		(exclude_from_sim no)
 		(at 326.136 33.782 0)
 		(effects
@@ -13458,6 +13458,18 @@
 			(justify left)
 		)
 		(uuid "5c503ec1-804b-4bc1-979a-d6add5b1c52f")
+	)
+	(text "EXTERNAL POWER\nfor testing purposes\npower from lab supply"
+		(exclude_from_sim no)
+		(at 498.856 331.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "6f23d9c8-7fe9-4d38-b5c7-6fb18e04a060")
 	)
 	(text "use alt. function I2S0_SCLK\n\n"
 		(exclude_from_sim no)
@@ -13759,6 +13771,10 @@
 		(uuid "ec83745f-5fd0-409c-ac91-7555a9839b16")
 	)
 	(no_connect
+		(at 156.21 176.53)
+		(uuid "0c99b7c6-d2bc-4081-aa1d-d538717f9500")
+	)
+	(no_connect
 		(at 251.46 289.56)
 		(uuid "0d8d8910-d5b1-42a2-a34f-12118d3cd520")
 	)
@@ -13827,6 +13843,10 @@
 		(uuid "66da90fa-ccbe-474f-b1ce-870654b45f38")
 	)
 	(no_connect
+		(at 156.21 179.07)
+		(uuid "694e70c3-ff31-41a7-a304-d4c42b980b6e")
+	)
+	(no_connect
 		(at 251.46 302.26)
 		(uuid "97778b38-6d8e-454e-9268-52518172e745")
 	)
@@ -13849,6 +13869,10 @@
 	(no_connect
 		(at 156.21 161.29)
 		(uuid "b9f5a510-3012-4f4b-a18e-400203cc50a2")
+	)
+	(no_connect
+		(at 156.21 173.99)
+		(uuid "d152e80a-1b75-4a50-9a1d-6616f2266066")
 	)
 	(no_connect
 		(at 420.37 308.61)
@@ -22609,6 +22633,30 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 492.76 345.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "762ca81a-6c84-4f28-bb72-809ba2b0d80b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 487.4767 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RX1f-"
 		(shape bidirectional)
 		(at 199.39 276.86 0)
@@ -22753,7 +22801,7 @@
 			)
 		)
 	)
-	(global_label "CC2n-jumpered"
+	(global_label "CC2-jumpered"
 		(shape bidirectional)
 		(at 73.66 200.66 180)
 		(fields_autoplaced yes)
@@ -22765,7 +22813,7 @@
 		)
 		(uuid "7e3060cd-cec3-4f16-a243-74a753dff44a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.3841 200.66 0)
+			(at 55.5331 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23499,7 +23547,7 @@
 	)
 	(global_label "USB SWITCH"
 		(shape bidirectional)
-		(at 176.53 184.15 0)
+		(at 176.53 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23509,7 +23557,7 @@
 		)
 		(uuid "b311620c-9c13-48c2-9c72-ff8830992a58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.2379 184.15 0)
+			(at 192.2379 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23822,6 +23870,30 @@
 		(uuid "d311d66c-0328-4e30-8da3-cf25ff4b0ddd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.7805 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "3V3B"
+		(shape input)
+		(at 492.76 340.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d595bbf6-4eb7-48e5-8126-b11061359434")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 484.9972 340.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24299,7 +24371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "COMATEL THD:COMATEL_385.0358.1.02.400"
 			(at 316.23 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -25464,7 +25536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "COMATEL THD:COMATEL_385.0358.1.02.400"
 			(at 341.63 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -29421,6 +29493,88 @@
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:2-pin-header")
+		(at 500.38 342.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1ecd6c0-3081-42ad-845a-4ae4b2d18860")
+		(property "Reference" "J4"
+			(at 506.73 341.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 506.73 344.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COMATEL THD:COMATEL_385.0358.1.02.400"
+			(at 500.38 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 500.38 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 500.38 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99e155e2-3da1-403a-aec3-75b7ab5661c2")
+		)
+		(pin "1"
+			(uuid "0afdf614-3597-4871-8014-44f2f2c87442")
+		)
+		(instances
+			(project "USB"
+				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
+					(reference "J4")
 					(unit 1)
 				)
 			)

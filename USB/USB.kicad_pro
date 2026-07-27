@@ -692,7 +692,7 @@
         "uuid": "96ef50de-934d-4dd6-87fd-3fc40e345030"
       }
     ],
-    "used_designators": "D1-2,TVS4,#PWR67-68",
+    "used_designators": "J4,D1-2,TVS4,#PWR67-68",
     "variants": []
   },
   "sheets": [
