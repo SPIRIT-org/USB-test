@@ -13343,6 +13343,16 @@
 		)
 		(uuid "00a5815a-8dce-4b7e-af2f-8849cddd4357")
 	)
+	(text "V bus will probably never exceed 5V\nbecause cm5 is never negoatiating more that 5V 5A\nmaybe the TVS should have a 5.5V working voltage"
+		(exclude_from_sim no)
+		(at 28.702 306.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0dba3d19-0769-4ffe-a981-241567d6d1b0")
+	)
 	(text "POWER SECTION labels\n"
 		(exclude_from_sim no)
 		(at 173.228 154.178 0)
