@@ -13596,6 +13596,18 @@
 		)
 		(uuid "a42c4901-4f73-4e88-a315-fa5ad64ee51b")
 	)
+	(text "GND TEST POINT"
+		(exclude_from_sim no)
+		(at 565.912 330.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "c2ad2be2-096f-4e0a-8c7a-71d1171af28a")
+	)
 	(text "reverse CC pins if mux is driven incorrectly\n(this will invert the MUX_POL signal)"
 		(exclude_from_sim no)
 		(at 240.538 309.626 0)
@@ -13790,6 +13802,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "927cba0a-6a72-4251-8197-82fa3359aee4")
+	)
+	(junction
+		(at 558.8 345.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef84e8a-5b1d-4e63-85dc-64e8b9930d6b")
 	)
 	(junction
 		(at 322.58 297.18)
@@ -14610,6 +14628,16 @@
 			(type default)
 		)
 		(uuid "8f74a4ba-9a25-453e-817c-f1d14ddef8ef")
+	)
+	(wire
+		(pts
+			(xy 558.8 340.36) (xy 558.8 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907dd2e5-2890-4493-87b0-e5618e5691f5")
 	)
 	(wire
 		(pts
@@ -26517,6 +26545,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 558.8 345.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32f71ac0-7a0a-4153-b2a1-9cbd9737aef0")
+		(property "Reference" "#PWR071"
+			(at 558.8 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 558.8 349.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 558.8 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 558.8 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 558.8 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68ce1e4b-8ece-4af8-b98f-abcd3a4ad33a")
+		)
+		(instances
+			(project "USB"
+				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_38")
 		(lib_id "power:GND")
 		(at 81.28 154.94 270)
@@ -26745,6 +26850,88 @@
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:2-pin-header")
+		(at 566.42 342.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43bdcfa0-b710-4138-953c-9da2f6607ab7")
+		(property "Reference" "J6"
+			(at 572.77 341.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 572.77 344.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "COMATEL THD:COMATEL_385.0358.1.02.400"
+			(at 566.42 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 566.42 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 566.42 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d9ff2063-56c9-4aa1-8822-0e9469e3ed5d")
+		)
+		(pin "1"
+			(uuid "9bc27247-13ef-42a3-96da-e5215010f126")
+		)
+		(instances
+			(project "USB"
+				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
+					(reference "J6")
 					(unit 1)
 				)
 			)
