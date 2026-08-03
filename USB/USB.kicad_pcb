@@ -113,7 +113,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -11827,6 +11826,18 @@
 				(size 1.6 1.8)
 				(thickness 0.2)
 			)
+		)
+	)
+	(gr_text "Supporters:\nCifer\nSetsuna\nTerran Earthling\nTom \nThiery Emanuel\nStradex\nHjalte Hansen\n"
+		(at 124.28 73.83 0)
+		(layer "B.SilkS")
+		(uuid "11d54eb2-7de5-4086-b071-48e5925b3f15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "note: vias under type C socket\nneed to be tented from the top"
