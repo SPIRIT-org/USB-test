@@ -13596,6 +13596,16 @@
 		)
 		(uuid "a42c4901-4f73-4e88-a315-fa5ad64ee51b")
 	)
+	(text ""
+		(exclude_from_sim no)
+		(at 355.6 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bed3fd20-7d93-4442-81a1-ff0178428cc8")
+	)
 	(text "GND TEST POINT"
 		(exclude_from_sim no)
 		(at 565.912 330.962 0)
@@ -13607,6 +13617,16 @@
 			)
 		)
 		(uuid "c2ad2be2-096f-4e0a-8c7a-71d1171af28a")
+	)
+	(text "wrong connection double check"
+		(exclude_from_sim no)
+		(at 294.64 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c46a2682-7c9a-4c2a-9392-e49d1827a29f")
 	)
 	(text "reverse CC pins if mux is driven incorrectly\n(this will invert the MUX_POL signal)"
 		(exclude_from_sim no)
@@ -13916,10 +13936,6 @@
 		(uuid "ac5ab601-03ea-40f0-b2fa-a3681b39d4a1")
 	)
 	(no_connect
-		(at 203.2 53.34)
-		(uuid "ad085360-9e1c-4fc3-9af7-6184a8ca329d")
-	)
-	(no_connect
 		(at 420.37 285.75)
 		(uuid "b46081bf-cdc0-4805-a091-4ad578426767")
 	)
@@ -13950,10 +13966,6 @@
 	(no_connect
 		(at 176.53 162.56)
 		(uuid "eaae5a2f-1dda-4396-8271-7eb727c1607d")
-	)
-	(no_connect
-		(at 330.2 -78.74)
-		(uuid "f24f4531-414b-4cb2-aa35-de65541c1aae")
 	)
 	(no_connect
 		(at 251.46 297.18)
