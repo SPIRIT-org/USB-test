@@ -24449,7 +24449,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0405d0a0-b6eb-429e-848c-f949ed69dc7a")
 		(property "Reference" "J2"
@@ -24498,6 +24498,39 @@
 		)
 		(property "Description" ""
 			(at 316.23 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 316.23 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 316.23 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 316.23 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24587,8 +24620,9 @@
 				)
 			)
 		)
-		(property "Field4" "Amphenol"
-			(at 241.3 74.93 0)
+		(property "Notes" ""
+			(at 101.6 142.24 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24597,8 +24631,31 @@
 				)
 			)
 		)
-		(property "Field5" "2x 10164227-1001A1RLF"
-			(at 241.3 77.47 0)
+		(property "Type" ""
+			(at 101.6 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "10164227-1001A1RLF"
+			(at 101.6 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 101.6 142.24 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25614,7 +25671,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1d6c7a52-5f11-459b-b654-8481dcdd3e89")
 		(property "Reference" "J3"
@@ -25663,6 +25720,39 @@
 		)
 		(property "Description" ""
 			(at 341.63 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 341.63 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 341.63 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 341.63 270.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25752,6 +25842,39 @@
 			)
 		)
 		(property "MPN" "ERA-3AEB103V"
+			(at 351.79 331.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 351.79 331.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 351.79 331.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
 			(at 351.79 331.47 90)
 			(hide yes)
 			(show_name no)
@@ -26876,7 +26999,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "43bdcfa0-b710-4138-953c-9da2f6607ab7")
 		(property "Reference" "J6"
@@ -26934,6 +27057,39 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 566.42 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 566.42 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 566.42 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d9ff2063-56c9-4aa1-8822-0e9469e3ed5d")
 		)
@@ -26958,7 +27114,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4da4c293-d10b-42f6-95fe-1773c0e8898a")
 		(property "Reference" "J5"
@@ -27007,6 +27163,39 @@
 		)
 		(property "Description" ""
 			(at 541.02 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 541.02 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 541.02 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 541.02 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27499,6 +27688,39 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 58.42 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 58.42 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SOT-23-3"
+			(at 58.42 295.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c7a002fd-251a-4eab-94a6-bd196d6f61e0")
 		)
@@ -27574,6 +27796,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 400.05 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 400.05 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 400.05 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HD3SS460RHRR"
+			(at 400.05 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "28-WQFN (5.5x3.5)"
 			(at 400.05 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -27749,8 +28015,8 @@
 				)
 			)
 		)
-		(property "PARTREV" "3/1/2020"
-			(at 313.944 289.814 0)
+		(property "Notes" ""
+			(at 322.58 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27758,11 +28024,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 331.724 289.052 0)
+		(property "Type" ""
+			(at 322.58 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27770,11 +28035,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
-			(at 312.166 293.116 0)
+		(property "MPN" "RC0805JR-071KL"
+			(at 322.58 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27782,11 +28046,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 333.502 299.212 0)
+		(property "Package" "0805"
+			(at 322.58 290.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27794,7 +28057,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(pin "2"
@@ -27956,7 +28218,7 @@
 				)
 			)
 		)
-		(property "MF" "ON Semiconductor"
+		(property "MPN" "EMI8142"
 			(at 184.15 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -27968,7 +28230,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Description_1" "4 Line Common Mode Choke Surface Mount  100mA DCR 6Ohm (Typ)"
+		(property "Notes" ""
 			(at 184.15 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -27977,10 +28239,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Package" "XDFN-10 ON Semiconductor"
+		(property "Type" ""
 			(at 184.15 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -27989,10 +28250,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Price" "None"
+		(property "Package" "XDFN10"
 			(at 184.15 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -28001,103 +28261,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=eda"
-			(at 184.15 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" "0.5mm"
-			(at 184.15 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 184.15 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "0"
-			(at 184.15 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=snap"
-			(at 184.15 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "EMI8142MUTAG"
-			(at 184.15 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 184.15 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "On Semiconductor"
-			(at 184.15 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "3"
@@ -28754,6 +28917,39 @@
 			)
 		)
 		(property "MPN" "TS3USB221A"
+			(at 530.86 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 530.86 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 530.86 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "RSE (UQFN, 10) "
 			(at 530.86 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -29502,6 +29698,39 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 349.25 311.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 349.25 311.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 349.25 311.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aebef40f-19e8-42d4-accf-3c726d069649")
 		)
@@ -29904,6 +30133,39 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 355.6 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 355.6 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 355.6 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "92c7d581-be20-48ed-a95f-a4caf8a32c73")
 		)
@@ -30085,7 +30347,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a1ecd6c0-3081-42ad-845a-4ae4b2d18860")
 		(property "Reference" "J4"
@@ -30134,6 +30396,39 @@
 		)
 		(property "Description" ""
 			(at 500.38 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 500.38 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 500.38 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 500.38 342.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30460,6 +30755,50 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 276.86 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 276.86 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TUSB321RWBR"
+			(at 276.86 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "X2QFN (12) "
+			(at 276.86 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "9"
 			(uuid "a4d20ce3-9cd7-4798-9ca3-059e406bcb7c")
 		)
@@ -30573,6 +30912,39 @@
 			)
 		)
 		(property "MPN" "CC0603ZRY5V9BB104"
+			(at 237.49 278.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 237.49 278.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 237.49 278.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
 			(at 237.49 278.13 90)
 			(hide yes)
 			(show_name no)
@@ -30898,55 +31270,40 @@
 				)
 			)
 		)
-		(property "PARTREV" "24.05.01"
-			(at 99.06 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 99.06 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.525mm"
-			(at 99.06 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Hirose Electric Co Ltd"
-			(at 99.06 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MPN" "CX90MW9-24P1"
+			(at 99.06 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 99.06 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 99.06 298.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
 			(at 99.06 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -31205,6 +31562,39 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 245.11 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 245.11 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 245.11 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "307568f6-dbe8-4c50-8c41-45892bc61268")
 		)
@@ -31442,7 +31832,7 @@
 				)
 			)
 		)
-		(property "MF" "ON Semiconductor"
+		(property "MPN" "EMI8142"
 			(at 184.15 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -31454,7 +31844,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Description_1" "4 Line Common Mode Choke Surface Mount  100mA DCR 6Ohm (Typ)"
+		(property "Notes" ""
 			(at 184.15 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -31463,10 +31853,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Package" "XDFN-10 ON Semiconductor"
+		(property "Type" ""
 			(at 184.15 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -31475,10 +31864,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Price" "None"
+		(property "Package" "XDFN10"
 			(at 184.15 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -31487,103 +31875,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=eda"
-			(at 184.15 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" "0.5mm"
-			(at 184.15 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 184.15 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "0"
-			(at 184.15 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=snap"
-			(at 184.15 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "EMI8142MUTAG"
-			(at 184.15 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 184.15 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "On Semiconductor"
-			(at 184.15 320.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "7"
@@ -32248,6 +32539,39 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 365.76 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 365.76 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0603"
+			(at 365.76 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a59eb52d-ae6a-4661-9378-2f7ce88625e5")
 		)
@@ -32333,8 +32657,8 @@
 				(justify bottom)
 			)
 		)
-		(property "DigiKey_Part_Number" "4518-TPD1E05U06DPYRCT-ND"
-			(at 140.716 305.816 0)
+		(property "Notes" ""
+			(at 128.27 307.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32342,11 +32666,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
-			(at 105.664 314.706 0)
+		(property "Type" ""
+			(at 128.27 307.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32354,11 +32677,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Package" "None"
-			(at 139.446 331.216 0)
+		(property "MPN" "TPD1E05U06DPYR"
+			(at 128.27 307.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32366,11 +32688,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
-			(at 112.776 312.166 0)
+		(property "Package" "X1SON, 2"
+			(at 128.27 307.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32378,43 +32699,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "UMW"
-			(at 143.256 335.026 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "TPD1E05U06DPYR"
-			(at 144.018 306.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "TI"
-			(at 141.478 325.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "2"
@@ -32687,7 +32971,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "2 Line Common Mode Choke with ESD 100mA DCR 6Ohm"
 			(at 182.88 347.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32731,6 +33015,39 @@
 			)
 		)
 		(property "MPN" "EMI8141"
+			(at 182.88 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 182.88 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 182.88 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "XDFN6"
 			(at 182.88 347.98 0)
 			(hide yes)
 			(show_name no)
@@ -33144,8 +33461,9 @@
 				)
 			)
 		)
-		(property "Field4" "Amphenol"
-			(at 111.76 74.93 0)
+		(property "Notes" ""
+			(at 114.3 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33154,8 +33472,31 @@
 				)
 			)
 		)
-		(property "Field5" "2x 10164227-1001A1RLF"
-			(at 111.76 77.47 0)
+		(property "Type" ""
+			(at 114.3 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "10164227-1001A1RLF"
+			(at 114.3 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 114.3 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33999,8 +34340,8 @@
 				(justify bottom)
 			)
 		)
-		(property "DigiKey_Part_Number" "4518-TPD1E05U06DPYRCT-ND"
-			(at 83.566 298.196 0)
+		(property "Notes" ""
+			(at 71.12 299.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34008,11 +34349,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
-			(at 48.514 307.086 0)
+		(property "Type" ""
+			(at 71.12 299.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34020,11 +34360,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Package" "None"
-			(at 82.296 323.596 0)
+		(property "MPN" "TPD1E05U06DPYR"
+			(at 71.12 299.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34032,11 +34371,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
-			(at 55.626 304.546 0)
+		(property "Package" "X1SON, 2"
+			(at 71.12 299.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34044,43 +34382,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "UMW"
-			(at 86.106 327.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "TPD1E05U06DPYR"
-			(at 86.868 298.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "TI"
-			(at 84.328 317.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 			)
 		)
 		(pin "2"

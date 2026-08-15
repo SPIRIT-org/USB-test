@@ -198,12 +198,12 @@
 				)
 			)
 		)
-		(property "DigiKey_Part_Number" "4518-TPD1E05U06DPYRCT-ND"
+		(property "Notes" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cc189412-dcaf-4f37-9b4c-0d1219643dc6")
+			(uuid "f8d22203-bc4a-4752-8b85-87d301e8426e")
 			(effects
 				(font
 					(size 1 1)
@@ -211,12 +211,12 @@
 				)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+		(property "Type" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07bc9d63-0660-4c21-9873-67c8a981b8c3")
+			(uuid "2f9915d2-27c7-41fc-a8ab-04f9a6eb5fef")
 			(effects
 				(font
 					(size 1 1)
@@ -224,64 +224,12 @@
 				)
 			)
 		)
-		(property "Package" "None"
+		(property "MPN" "TPD1E05U06DPYR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8fecd76e-4bba-4df8-857c-5483d8de56d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "833cf1a8-cf99-4dda-b178-c28e7f314307")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "UMW"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8cab351c-752d-4477-874c-5b3f95333fd2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "TPD1E05U06DPYR"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d41129f1-7121-430a-a385-650f44ecd5bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "TI"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab914c16-275f-4071-9c69-f9b8fe44dfc2")
+			(uuid "2b99bd8c-0e8a-42ba-b555-1fb32209d550")
 			(effects
 				(font
 					(size 1 1)
@@ -471,6 +419,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13dd39b3-4e88-4bba-856c-2480ffe61035")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de43a86b-6e9e-4282-9724-2b76f1117bc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TUSB321RWBR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13813309-95fc-4b41-8f03-61fd1057684d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -762,6 +749,32 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3fb9dc2-3725-4e3e-adb3-5da89266212e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "677e2cd4-332d-4b57-b7a1-241e199c4507")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4da4c293-d10b-42f6-95fe-1773c0e8898a")
 		(sheetname "/")
 		(sheetfile "USB.kicad_sch")
@@ -771,7 +784,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr allow_missing_courtyard)
+		(attr allow_missing_courtyard dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 1.025)
@@ -1196,10 +1209,44 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14cc91ef-b340-48b6-a7e6-39d2909d8af3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "408409a7-cbaf-4f3a-a785-b3d37f34a3f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "RHR0028A RHR0028A_NV")
 		(path "/5ebcddb1-b6a9-41ab-93fc-dbb38334f94a")
 		(sheetname "/")
 		(sheetfile "USB.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "22" "1" "2" "4" "5" "9" "10" "6" "7" "8" "3" "17" "11" "12" "15"
+					"16" "18" "19" "20" "21" "23" "24" "13" "14" "27" "28" "26" "25" "29"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1777,12 +1824,12 @@
 				)
 			)
 		)
-		(property "PARTREV" "3/1/2020"
+		(property "Notes" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee79a86f-637a-438c-b274-f3ce19da25a3")
+			(uuid "c645fc71-64e1-4f91-9a44-198ad1f10dee")
 			(effects
 				(font
 					(size 1 1)
@@ -1790,12 +1837,12 @@
 				)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "Type" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1cc161e3-addb-4886-a548-8f9bf8cac2fd")
+			(uuid "2154acc1-f63b-4718-9b9f-d4e3ec80ef47")
 			(effects
 				(font
 					(size 1 1)
@@ -1803,25 +1850,12 @@
 				)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
+		(property "MPN" "RC0805JR-071KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b986b57-cd85-4680-b4e4-3e83c87a79fd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ce21a10-85eb-416a-b82c-02176d817b0a")
+			(uuid "a1dfc987-77f7-4b6a-a627-e8a34e5b66d1")
 			(effects
 				(font
 					(size 1 1)
@@ -2059,12 +2093,12 @@
 				)
 			)
 		)
-		(property "DigiKey_Part_Number" "4518-TPD1E05U06DPYRCT-ND"
+		(property "Notes" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5b4ca609-e282-465f-aee0-505c442cffef")
+			(uuid "f8f9ab71-06a2-487e-990a-188082a87eff")
 			(effects
 				(font
 					(size 1 1)
@@ -2072,12 +2106,12 @@
 				)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=snap"
+		(property "Type" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60938080-7452-4111-b062-9860bb0a9a74")
+			(uuid "6c1a9297-4b42-4103-81ed-55e3f32a3885")
 			(effects
 				(font
 					(size 1 1)
@@ -2085,64 +2119,12 @@
 				)
 			)
 		)
-		(property "Package" "None"
+		(property "MPN" "TPD1E05U06DPYR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "37f8b76d-ac5a-4da2-abdc-20fe87c68233")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TPD1E05U06DPYR/UMW/view-part/?ref=eda"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8aaacbc2-7414-4ac7-87d4-2c4a1be7366b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MF" "UMW"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e1a51fb6-edf7-48cf-abbd-71f0eba78076")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MP" "TPD1E05U06DPYR"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "757b954f-9a98-45a9-bc92-70a5ffc08f0b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "TI"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b7785ca0-1ed7-48f2-87ab-3d32b51d3f22")
+			(uuid "8e96274f-3cef-4ace-a198-531481b6372e")
 			(effects
 				(font
 					(size 1 1)
@@ -2340,6 +2322,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1301b9a9-41f4-41d3-9bbb-6f7533efeae8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13a0af76-97d8-4973-9751-163c998249e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8df061f-e638-47a2-80a7-7c3ef05bb6e1")
 			(effects
 				(font
 					(size 1 1)
@@ -2573,6 +2581,32 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68dee78d-cccc-4dfc-b963-c0706300e9d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2490915-a041-41fc-85fa-91d0cbd4e28d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c6e5d99b-2a0e-4426-8117-cc7a14df42b6")
 		(sheetname "/")
@@ -2789,123 +2823,6 @@
 				)
 			)
 		)
-		(property "MF" "ON Semiconductor"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ead9abd4-e28e-48b1-b1a4-9f951bc74ee8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "4 Line Common Mode Choke Surface Mount  100mA DCR 6Ohm (Typ)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4afa3299-e75d-4a9a-b695-f26b883fd063")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "XDFN-10 ON Semiconductor"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "db45d047-d35d-43cb-bb60-9244717f9967")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "65c56570-06fa-4229-8b78-378018c16444")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=eda"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "afcf6991-e181-4a4a-949b-7b92abf9f708")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" "0.5mm"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbaaa028-7802-41d8-84df-86f52d07735b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "13527ea2-5975-4662-8e46-f3d1806e4248")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "0"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b974c75d-93e9-47a5-96b1-a812c157a921")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=snap"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba12e7c8-a9ef-4d41-a54d-6138171d706c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "EMI8142MUTAG"
 			(at 0 0 180)
 			(unlocked yes)
@@ -2919,12 +2836,12 @@
 				)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "Notes" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a5c4b92-3cc7-4c43-b57b-54c867bfdf61")
+			(uuid "ac23b6bd-ba82-47fe-9863-96786a20d823")
 			(effects
 				(font
 					(size 1 1)
@@ -2932,12 +2849,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "On Semiconductor"
+		(property "Type" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57d0a2f6-f927-40d9-a120-1a5f6b0360e7")
+			(uuid "da0b8fb3-7c20-4dfb-bb67-13a18426d5ea")
 			(effects
 				(font
 					(size 1 1)
@@ -3319,12 +3236,12 @@
 				)
 			)
 		)
-		(property "Field4" "Amphenol"
+		(property "Notes" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5e935bd-7602-4fb1-9279-8efcd60873cf")
+			(uuid "45adf591-ecb4-4be3-b6a4-2374e298980b")
 			(effects
 				(font
 					(size 1 1)
@@ -3332,12 +3249,25 @@
 				)
 			)
 		)
-		(property "Field5" "2x 10164227-1001A1RLF"
+		(property "Type" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66fed9df-df63-4cda-bcf7-fa55b0a463e4")
+			(uuid "2e37d60a-c0d0-461f-a6f6-4ce82f52f240")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "10164227-1001A1RLF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f4ca857-fc13-42f1-9822-b953a3a56de4")
 			(effects
 				(font
 					(size 1 1)
@@ -5573,7 +5503,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "2 Line Common Mode Choke with ESD 100mA DCR 6Ohm"
 			(at 0.15 -1.45 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5615,6 +5545,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "58d8d8dd-8cdd-4a10-a8ef-a0a73852233c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2576ad69-482b-4911-ace5-4ce75b343ce8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00c565ba-fa0f-4673-92cf-b70b21277b6a")
 			(effects
 				(font
 					(size 1 1)
@@ -5969,6 +5925,32 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be47ef9d-9483-4506-bd61-0ca1b95bb1f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c078856c-9815-465e-8367-2d784cd7bbc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/924ffa93-5ae2-4bb1-9fbd-38502d920c76")
 		(sheetname "/")
@@ -6215,6 +6197,32 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c5ffe4f-c393-4be9-9269-e201fed8794a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d279536f-95b0-4fe5-8b9d-f30a8598a98e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9e8fc7ff-37a0-4316-89a7-7dc866f4a68f")
 		(sheetname "/")
@@ -6449,6 +6457,32 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4483df1e-a297-40de-9dfc-e4eeb8c0dd0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5493178-7193-45ea-a52d-60495fbdaaa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/43bdcfa0-b710-4138-953c-9da2f6607ab7")
 		(sheetname "/")
 		(sheetfile "USB.kicad_sch")
@@ -6458,7 +6492,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr allow_missing_courtyard)
+		(attr allow_missing_courtyard dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.27 -1.025)
@@ -6869,6 +6903,32 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e7c3948-948e-48d4-855f-5f6e65d3e735")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68434a3f-8c7f-4f9a-90c0-cb20e7fc4ad7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1d6c7a52-5f11-459b-b654-8481dcdd3e89")
 		(sheetname "/")
 		(sheetfile "USB.kicad_sch")
@@ -6878,7 +6938,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr allow_missing_courtyard)
+		(attr allow_missing_courtyard dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 1.025)
@@ -7301,12 +7361,12 @@
 				)
 			)
 		)
-		(property "PARTREV" "24.05.01"
+		(property "Notes" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1eab5f8-d5d1-4ded-b0f8-ded0c11bfe41")
+			(uuid "c62f5e60-d4bc-492b-97a1-535387b9d72f")
 			(effects
 				(font
 					(size 1 1)
@@ -7314,38 +7374,12 @@
 				)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "Type" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d82e3ec0-9637-42cb-82ef-d8c4a195dde2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "2.525mm"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2085111b-13b1-4845-9dd2-bd85db413cd5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Hirose Electric Co Ltd"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3c6ad8c5-7f01-4fb9-9a7c-f4d00a418e7a")
+			(uuid "74cab248-5dda-467d-8339-a66d2dc8b257")
 			(effects
 				(font
 					(size 1 1)
@@ -8219,6 +8253,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ab996479-7d7a-44eb-a3ea-a44ac2f23de2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cc2475c-ccaa-4d95-abe0-7c45551c262b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0608d9a6-de36-49bf-98eb-222fb6e138e5")
 			(effects
 				(font
 					(size 1 1)
@@ -9131,123 +9191,6 @@
 				)
 			)
 		)
-		(property "MF" "ON Semiconductor"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9de577f4-aa8a-4971-9cf8-d252ffcca78f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description_1" "4 Line Common Mode Choke Surface Mount  100mA DCR 6Ohm (Typ)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c5fba57e-b8e2-40fd-b40a-8ffa2a2b41d9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Package" "XDFN-10 ON Semiconductor"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8199bf3b-f86e-41fd-8cf8-15291326ae72")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c9812d82-b827-498c-ad03-e4c38814b89e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=eda"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e2d9742-515d-4ba6-86f7-1934f0f2eed5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" "0.5mm"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "67cbb0bd-00db-4bb0-993f-0681aa74b68b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55a44d81-4fde-4a12-92e2-6ebe7903376a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PARTREV" "0"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fb1d6722-4d84-4b0c-bffc-dffd41df383e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=snap"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3bc0dec9-c2e7-4924-9853-e61d5fb27028")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "MPN" "EMI8142MUTAG"
 			(at 0 0 180)
 			(unlocked yes)
@@ -9261,12 +9204,12 @@
 				)
 			)
 		)
-		(property "Availability" "In Stock"
+		(property "Notes" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2496fd76-4647-4a38-9b55-3775b7b30a4e")
+			(uuid "a9ae7b2b-7a12-402a-8ab4-8f1a81d355b2")
 			(effects
 				(font
 					(size 1 1)
@@ -9274,12 +9217,12 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "On Semiconductor"
+		(property "Type" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c537bff9-5155-44d2-8943-afd7f764ec9a")
+			(uuid "be9bfa16-09ca-4b80-b25a-905d4d5c5a95")
 			(effects
 				(font
 					(size 1 1)
@@ -9923,6 +9866,32 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e672cd6-c92e-4b71-b15e-e713cc9e05b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ed75ada-cd0e-416f-9a47-06f8758589d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/db5c8f5b-16eb-408b-874d-b60ce8f8d4e8")
 		(sheetname "/")
@@ -10144,6 +10113,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "32e9d0c8-039c-47eb-a923-a45a42932be6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Notes" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afd44f39-989a-4734-b7fd-a32228f6f02f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e43d9fbf-e48b-493f-a436-2c92453f79dc")
 			(effects
 				(font
 					(size 1 1)
@@ -10534,6 +10529,32 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d0a7e7f-09e5-4003-9f25-de9adc792ca8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ff93b39-a23a-4c27-b8ed-600e6087d8ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/20adb2cb-f62a-4c35-a6fb-cbfd6e5f2e6c")
 		(sheetname "/")
@@ -10768,6 +10789,32 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aebb39a7-6cc1-4dc3-8128-c62999ed3453")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1b4c1d6-b44d-486c-8e48-5a9d75cedef3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a1ecd6c0-3081-42ad-845a-4ae4b2d18860")
 		(sheetname "/")
 		(sheetfile "USB.kicad_sch")
@@ -10777,7 +10824,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr allow_missing_courtyard)
+		(attr allow_missing_courtyard dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 1.025)
@@ -11188,6 +11235,32 @@
 				)
 			)
 		)
+		(property "Notes" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b025d56-b92c-40d9-8e02-4573bc785ba4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0076588d-aae2-4513-8fcc-e39db713c2ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0405d0a0-b6eb-429e-848c-f949ed69dc7a")
 		(sheetname "/")
 		(sheetfile "USB.kicad_sch")
@@ -11197,7 +11270,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr allow_missing_courtyard)
+		(attr allow_missing_courtyard dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.81 1.025)
