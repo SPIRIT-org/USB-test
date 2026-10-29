@@ -1,4 +1,4 @@
-USB CHECKLIST
+# REV 1 PROBLEMS
 
 - [x] diff pair vias too close to eachother (min copper to copper manufacturability for PCBWay is 0.1mm)
 
@@ -17,4 +17,12 @@ USB CHECKLIST
 
 - [x] remember about tented vias
 
+# REV 2 PROBLEMS
 
+- [ ] type C socket can't be mounted because there is no clearance for the
+recess.
+
+- [ ] BOM states 1x 100 pin Amphenol sockets, actually 2 are needed
+per board
+
+- [ ] `GPIO_VREF` should be connected to `CM5_3.3V` instead of `3V3B`
